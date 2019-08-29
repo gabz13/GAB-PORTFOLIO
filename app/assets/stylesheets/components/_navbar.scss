@@ -1,14 +1,25 @@
-.navbar-lewagon {
+.navbar {
   justify-content: space-between;
   background: white;
+
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar .navbar-brand img {
   width: 40px;
 }
 
 
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+// .sticky + .content {
+//   padding-top: 60px;
+// }

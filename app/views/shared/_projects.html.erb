@@ -10,8 +10,8 @@
      <strong> Skills Used:</strong>
      Ruby on Rails, HTML, CSS
    </p>
-   <img src="../assets/petpal.png" alt="petpal" height="220" width="360" class="project-pic">
-
+   <%= cl_image_tag("petpal",
+   width: 340, height: 240, crop: :fill) %>
    <a target="_blank"  class="website-btn" href="https://petpalz.herokuapp.com/"> <i class="far fa-eye"></i>
 
    </a>
@@ -19,20 +19,21 @@
 
  <div class="lifeline col py-3 px-lg-5">
   <div class="d-flex justify content between">
-  <div>
-    <h3>Lifeline</h3>
-    <p>During the final two weeks of the bootcamp we built a progressive web application using Ruby on Rails. This app was created to help individuals track their feelings add journal entries and view summarizing data in two week segments. </p>
-    <p>
-     <strong> Skills Used:</strong>
-     Ruby on Rails, HTML, CSS, and Javascript
-   </p>
- </div>
- <div>
-   <img src="../assets/lifeline.png" alt="lifeline" height="280" width="160">
-   <a target="_blank"  class="website-btn" href="https://life-line.club/"  class="d-flex justify-content-end"> <!-- <i class="far fa-eye"></i -->
+    <div>
+      <h3>Lifeline</h3>
+      <p>During the final two weeks of the bootcamp we built a progressive web application using Ruby on Rails. This app was created to help individuals track their feelings add journal entries and view summarizing data in two week segments. </p>
+      <p>
+       <strong> Skills Used:</strong>
+       Ruby on Rails, HTML, CSS, and Javascript
+     </p>
+   </div>
+   <div>
+      <%= cl_image_tag("lifeline",
+   width: 200, height: 320, crop: :fill) %>
+     <a target="_blank"  class="website-btn" href="https://life-line.club/"  class="d-flex justify-content-end"> <!-- <i class="far fa-eye"></i -->
 
-   </a>
- </div>
+     </a>
+   </div>
  </div>
 </div>
 </div>

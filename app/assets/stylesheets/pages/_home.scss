@@ -1,14 +1,12 @@
 // Specific CSS for your home-page
 .home-header {
-  background-image: asset-url("minimal.jpg");
+  background-image: asset-url("noted.png");
   height: 100vh;
-  background-size: 100%;
-  background-repeat: none;
+  background-size: 55%;
+  background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
 
 }
 
 
-.avatarme {
-  image: asset-url("avatarme.svg");
-}

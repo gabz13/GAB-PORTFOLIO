@@ -1,6 +1,6 @@
 .project-header {
   //background-image: asset-url("flowers.jpg");
-  //background-color: #CBE3ED;
+  background-color: white;
   height: 100vh;
   background-size: 100%;
   background-repeat: none;
@@ -16,4 +16,32 @@
 
 .project-pic {
   align-items: right;
+}
+
+
+.pet-pic {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.fa-eye {
+  position: absolute;
+  left: 164px;
+  top: 300px;
+}
+
+.life-pic {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.life-eye {
+   position: absolute;
+  left: 554px;
+  top: 246px;
 }

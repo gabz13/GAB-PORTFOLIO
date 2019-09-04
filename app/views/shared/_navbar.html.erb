@@ -11,18 +11,31 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active" onClick="document.location.reload(true)">
-        <%= link_to "home", "#", class: "nav-link" %>
+ <%= link_to "/", class: "navbar-brand" do %>
+     <i class="fas fa-home "></i>
+    <% end %>
       </li>
        <li class="nav-item">
-        <%= link_to "about", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item" onClick="document.location.reload(true)">
-        <%= link_to "projects", "#projects",class: "nav-link", id:  "reload" %>
+        <%= link_to "/", class: "navbar-brand" do %>
+      <i class="fas fa-user"></i>
+    <% end %>
+
 
       </li>
-       <li class="nav-item">
-        <%= link_to "contact", "#", class: "nav-link" %>
+      <li class="nav-item" onClick="document.location.reload(true)">
+        <%#= link_to "projects", "#projects",class: "nav-link", id:  "reload" %>
+         <li class="nav-item">
+        <%= link_to "#projects", class: "navbar-brand" do %>
+      <i class="far fa-eye"></i>
+    <% end %>
+
+
       </li>
+         <li class="nav-item">
+        <%= link_to "/", class: "navbar-brand" do %>
+      <i class="far fa-envelope"></i>
+    <% end %>
+
     </ul>
   </div>
 </div>
